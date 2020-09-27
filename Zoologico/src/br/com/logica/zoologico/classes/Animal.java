@@ -2,9 +2,11 @@ package br.com.logica.zoologico.classes;
 
 public class Animal {
 	
-	private String nome;
-	private String especie;
-	private int idade;
+	//Atributos ou Proriedades do Objeto
+	//Neste momento as Propriedades sao Publicas
+	 public String nome;
+	 public String especie;
+	 public int idade;
 	
 
 }
