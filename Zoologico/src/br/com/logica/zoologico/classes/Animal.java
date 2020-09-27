@@ -46,8 +46,12 @@ public String getNome() {
 		
 	}
 	
-
-
+	public Animal(String nome) {
+		
+	this.nome=nome;
+	}
+	
+	
 
 }
 
