@@ -36,5 +36,18 @@ public String getNome() {
 	public int getIdade() {
 		return idade;
 	}
-	
+	public void emitirSom() {
+		System.out.println("Som do Animal");
+		
+		
+	}
+
+	public  boolean isAdulto() {
+		return idade >=1;
+		
+		
+	}
+
+
 }
+

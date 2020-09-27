@@ -20,9 +20,15 @@ public class Main {
 		a2.setEspecie("Cachorro");
 		a2.setIdade(3);
 		
-				
+		if(a1.isAdulto()) {
+			System.out.println("E Adulto");
+			
+		}else {
+		System.out.println("Nao e adulto");
+		
+			
 		
 		
-		
+	}
 	}
 }
