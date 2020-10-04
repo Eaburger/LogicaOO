@@ -63,7 +63,7 @@ public String getNome() {
 		return estaVivo;
 	}
 	
-	public void morrer() {
+	public final void morrer() {
 		this.estaVivo= false;
 		
 		
