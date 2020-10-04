@@ -9,11 +9,13 @@ public abstract class Animal {
 	 private String nome;
 	 private String especie;
 	 private int idade;
+	 private boolean estaVivo;
 
 		public Animal(String nome, String especie, int idade) {
 			this.nome = nome;
 			this.especie=especie;
 			this.idade= idade;
+			this.estaVivo = true;
 			
 		}
 
@@ -34,14 +36,18 @@ public String getNome() {
 	public int getIdade() {
 		return idade;
 	}
-	public void emitirSom() {
-		System.out.println("Som do Animal");
+	
 		
 		
-	}
+	
 
 	public  boolean isAdulto() {
-		return idade >=1;
+		if(estaVivo) {
+			
+			return idade >=1;
+		}else {
+			return false;
+		}
 		
 		
 	}
@@ -51,7 +57,22 @@ public String getNome() {
 	this.nome=nome;
 	}
 	
+	public abstract void emitirSom() ;
 	
+	public boolean isEstaVivo() {
+		return estaVivo;
+	}
+	
+	public void morrer() {
+		this.estaVivo= false;
+		
+		
+	}
 
+	
+	
+	
 }
+
+		
 
