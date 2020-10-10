@@ -41,30 +41,22 @@ public String getNome() {
 		
 	
 
-	public  boolean isAdulto() {
-		if(estaVivo) {
-			
-			return idade >=1;
-		}else {
-			return false;
-		}
-		
-		
-	}
 	
+		
+	
+
 	public Animal(String nome) {
 		
 	this.nome=nome;
 	}
 	
-	public abstract void emitirSom() ;
+	
 	
 	public boolean isEstaVivo() {
 		return estaVivo;
 	}
 	
-	public final void morrer() {
-		this.estaVivo= false;
+	
 		
 		
 	}
@@ -72,7 +64,6 @@ public String getNome() {
 	
 	
 	
-}
 
 		
 
