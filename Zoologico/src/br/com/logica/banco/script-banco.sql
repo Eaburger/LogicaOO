@@ -47,3 +47,7 @@ Select * from animal;
 -- adicionando uma coluna
 alter table animal add column nome varchar(100);
 
+-- alterando valor da coluna
+update animal
+set nome ='toto'
+where codigo = 2
