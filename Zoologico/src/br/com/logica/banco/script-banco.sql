@@ -38,5 +38,12 @@ INSERT INTO animal(especie,idade,estavivo)
 --Consultando os registros da tabela 
 
 			
-Select especie,idade,estavivo from animal; 
+Select especie,idade,estavivo from animal;
+
+-- buscar todas a s colunas da tabela
+
+Select * from animal; 
+
+-- adicionando uma coluna
+alter table animal add column nome varchar(100);
 
