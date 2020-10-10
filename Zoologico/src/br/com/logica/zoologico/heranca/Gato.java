@@ -4,14 +4,20 @@ package br.com.logica.zoologico.heranca;
 
 public class Gato extends Animal {
 
-
-@Override
-public  boolean isAdulto() {
-	if(isestaVivo) {
+	public Gato(String nome, String especie,int idade) {
+		super(nome,especie,idade);
 		
-		return idade >=2;
-	}else {
-		return false;
+		
+	}
+
+	public  boolean isAdulto() {
+		if(isEstaVivo()) {
+			
+			return idade >=1;
+		}else {
+			return false;
+		}
 	}
 	
 }
+
