@@ -378,3 +378,11 @@ insert into item_venda values(41,18,5,'2325.32',6,0);
 select format (avg(p.valor),2) as 'media preco com Format'
 avg(p.valor) as 'media preco sem format'
 from produto p ;
+
+## para contar registos -  count()
+
+select count(*)from  produto;
+
+describe produto;
+
+insert int produto(valor,situacao) values('I',23);
