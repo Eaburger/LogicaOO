@@ -439,6 +439,12 @@ select str_to_date("August 05 2017",%M %d %Y);
 
 select now();
 
+## retorna o dia do mes de uma data
+
+Select dayofmonth(data)from nome_tabela;
+
+
+
 
 
 
