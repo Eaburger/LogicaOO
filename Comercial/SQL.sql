@@ -435,5 +435,11 @@ Select datediff('2017-03-17','2015-03-15');
 
 select str_to_date("August 05 2017",%M %d %Y);
 
+## consultar data e hora atual
+
+select now();
+
+
+
 
 
