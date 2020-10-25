@@ -443,6 +443,11 @@ select now();
 
 Select dayofmonth(data)from nome_tabela;
 
+## retorna o valor numerico do dia da semana
+
+Select dayofweek(data_venda) from venda
+
+
 
 
 
