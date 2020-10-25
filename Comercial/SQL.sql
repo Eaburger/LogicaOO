@@ -447,6 +447,12 @@ Select dayofmonth(data)from nome_tabela;
 
 Select dayofweek(data_venda) from venda
 
+## buscar entre duas datas - periodo
+
+Select * from venda
+
+where data_venda between '2015-01-02' and '2015-01-03'
+order by data_venda desc;
 
 
 
