@@ -410,3 +410,8 @@ select max(valor)as 'maior valor venda'
 min(valor) as 'meno valor venda'
 from venda
 
+
+## somar campos - sum();
+
+select concat('R$' , format(sum(valor),2))as 'Total valor de produtos' from produto;
+
