@@ -421,4 +421,10 @@ seletec lcase(nome), upper(nome)from cliente;
 insert into produto(codigo_produto, descricao) values ('987354', 'Mesa game');
 
 
+## completa uma String a direita com caracter desejado na quantidade desejada
+
+seletec rpad(descricao,10,'***') from produto;
+
+
+
 
