@@ -386,3 +386,17 @@ select count(*)from  produto;
 describe produto;
 
 insert int produto(valor,situacao) values('I',23);
+
+
+## verificar quantidade having count()
+
+select campo1,count(campo2)
+from nome_tabela
+having count (campo2)>1;
+
+
+select v.codigo_venda,v.id_vendedor,v.id_cliente, valor
+from venda v
+having  valor> 9000
+order by 4 asc
+;
