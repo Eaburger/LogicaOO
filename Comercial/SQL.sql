@@ -425,6 +425,15 @@ insert into produto(codigo_produto, descricao) values ('987354', 'Mesa game');
 
 seletec rpad(descricao,10,'***') from produto;
 
+# consulta com funçoes de data
+
+## retorna a diferença entre datas  - datediff()
+
+Select datediff('2017-03-17','2015-03-15');
+
+## converter string em data - str_to_date( )year
+
+select str_to_date("August 05 2017",%M %d %Y);
 
 
 
