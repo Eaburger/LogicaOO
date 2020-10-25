@@ -400,3 +400,13 @@ from venda v
 having  valor> 9000
 order by 4 asc
 ;
+
+#valor maximo e valor minimo - max() / min()
+
+select max(campo1), min(campo1)
+from nome_tabela
+
+select max(valor)as 'maior valor venda'
+min(valor) as 'meno valor venda'
+from venda
+
