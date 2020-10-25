@@ -415,3 +415,10 @@ from venda
 
 select concat('R$' , format(sum(valor),2))as 'Total valor de produtos' from produto;
 
+#registro em maisculo  - lcase
+
+seletec lcase(nome), upper(nome)from cliente;
+insert into produto(codigo_produto, descricao) values ('987354', 'Mesa game');
+
+
+
